@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+:root {
+    --primary-color: #1a1a1a;
+    --gradient-color-black: linear-gradient(-45deg, #1a1a1a, #1a1a1a, #515151cc, #515151cc);
+    --golden-dark-color: #a0713a;
+}
+
+section {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Cinzel Decorative;
+    font-weight: 600;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+}
+
+.overlay-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .info{
+    width: 23vw;
+    background-color: rgba(0, 0, 0, .65);
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding-bottom: 0.5vw;
+    border: 2px solid var(--golden-dark-color);
+}
+.info-title{
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 2px #333;
+    background-color: #000;
+}
+.info-title2{
+    display: block;
+    padding: 1vw 0.8vw 1vw;
+    font-size: 20px;
+    line-height: 2vw;
+    margin: 5px 0px;
+    text-shadow: 0px 1px 2px #000;
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+}
+.info-title3{
+    display: block;
+    padding: 0.3vw 0.8vw;
+    font-size: 1.2vw;
+    line-height: 1.4vw;
+    text-shadow: 0 1px 2px #000;
+    color: #fff;
+    text-align: center;
+}
+.info-title4{
+    display: block;
+    padding: 0.3vw 0.8vw;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    text-shadow: 0px 1px 2px #000;
+    color: #d7d7d7;
+    text-align: center;
+}
+.info-list{
+    background-color: rgba(0, 0, 0, .3);
+    padding: 0.6vw 0.8vw;
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+    text-transform: capitalize;
+    text-shadow: 0 1px 2px #000;
+    list-style: none;
+    text-align: center;
+}
+.item1{
+    color: var(--golden-dark-color);
+}
+.info-title5{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    padding: 4px;
+    background-size: 400% 400%;
+    background: var(--gradient-color-black);
+}
+.info-title6{
+    display: block;
+    padding: 3px 0px;
+    font-size: 18px;
+    
+}
+.info-title7{
+    display: block;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+} */
+
+.info-title {
+    display: block;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 0px 1px 2px #333;
+}
+
+.info-title2 {
+    display: block;
+    font-size: 12px;
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+}
+
+.text-gradient {
+    background: linear-gradient(to bottom, #e7d994, #a0713a);
+    background-clip: text !important;
+    color: transparent !important;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px var(--golden-dark-color);
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.info-title3 {
+    width: 20%;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4vw;
+    border-radius: 10px;
+    text-shadow: 0 1px 2px #000;
+    /* background: var(--gradient-color-black); */
+    background: radial-gradient(at left bottom, #E7DA94, #A0723A);
+    box-shadow: 5px 0px 20px var(--golden-dark-color);
+}
+
+.info-title4 {
+    display: block;
+    font-size: 22px;
+    color: #d7d7d7;
+    font-weight: 500;
+    line-height: 1.2vw;
+    text-align: center;
+    text-shadow: 0px 1px 2px #000;
+}
+
+.enquire-btn {
+    color: #fff;
+    border: none;
+    background-size: 400% 400%;
+    text-shadow: 0px 3px 6px var(--primary-color);
+    background: var(--gradient-color-black);
+    border: 2px solid #fff;
+}
+
+.btn:hover {
+    color: #fff;
+    border: none;
+    background-size: 400% 400%;
+    text-shadow: 0px 3px 6px var(--primary-color);
+    background: var(--gradient-color-black);
+    border: 2px solid #fff;
+}
+
+.card {
+    background: rgba(0, 0, 0, .65);
+    border: 2px solid var(--golden-dark-color);
+}
+
+.pre_launch_section .card {
+    width: 500px;
+    height: 450px;
+}
+
+.input-group-text {
+    background-color: #fff !important;
+    border-right: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+input {
+    border-left: 0px !important;
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom, #e7d994, #a0713a);
+    font-family: "Cinzel Decorative", serif;
+    background-clip: text !important;
+    color: transparent !important;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.complete-cost-img {
+    position: relative;
+    overflow: hidden;
+    height: 247px;
+}
+
+.complete-cost-img .cost-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    z-index: 111;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all 0.5s ease-in-out;
+}
+
+.complete-cost-detail:hover .complete-cost-img .cost-overlay {
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.cost-overlay-btn {
+    border: 0.1vw solid #e0e0e0;
+    background: 0 0;
+    border-radius: 0;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    z-index: 222;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease-in-out;
+}
+
+.complete-cost-detail:hover .cost-overlay-btn {
+    padding: 5px;
+    color: #e0e0e0;
+    background: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    transition: all 0.8s ease-in-out;
+}
+
+.cost-img-title {
+    color: #fff;
+    border: none;
+    padding: 0.5vw;
+    text-align: center;
+    background-size: 400% 400%;
+    text-shadow: 0 3px 6px var(--primary-color);
+    background: var(--gradient-color-black);
+}
+
+.cost-img-title h5 {
+    font-size: 20px;
+}
+
+.pre_launch_section p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pre_launch_section h5 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* .info {
+        width: 100%;
+        margin: 0 auto; 
+    }
+    .info-title2 {
+        font-size: 20px; 
+        line-height: 5vw;
+        padding: 8px 8px;
+        text-align: center;
+    }
+    .info-title3 {
+        font-size: 18px; 
+        line-height: 3.5vw;
+        padding: 5px 8px;
+        text-align: center;
+    }
+    .info-title4 {
+        font-size: 12px; 
+        line-height: 3vw;
+        padding: 5px 8px;
+        text-align: center;
+    }
+    .info-list {
+        padding: 8px 8px; 
+        font-size: 15px; 
+    }
+    .info-title5 {
+        font-size: 12px; 
+    }
+    .info-title6 {
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    .info-title7 {
+        font-size: 15px; 
+        padding: 5px;
+    } 
+    .about-majestique .about-enquire-btn{
+        text-align: center !important;
+    } */
+}
+
+#contact-button {
+    position: fixed;
+    bottom: 1px;
+    z-index: 1000;
+    width: 100%
+}
+
+#contact-button p {
+    display: none;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--primary-color);
+}
+
+@media only screen and (max-width:768px) {
+    #contact-button p {
+        display: block
+    }
+    .text-gradient {
+        background: linear-gradient(to bottom, #e7d994, #a0713a);
+        background-clip: text !important;
+        color: transparent !important;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px var(--golden-dark-color);
+        font-weight: 500;
+        font-size: 29px;
+    }
+    .info-title3 {
+        width: 35%;
+        color: #fff;
+        margin: 0 auto;
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.4vw;
+        border-radius: 10px;
+        text-shadow: 0 1px 2px #000;
+        /* background: var(--gradient-color-black); */
+        background: radial-gradient(at left bottom, #E7DA94, #A0723A);
+        box-shadow: 5px 0px 20px var(--golden-dark-color);
+    }
+}
